@@ -1,0 +1,30 @@
+@font-face {
+    font-family: satoshi;
+    src: url(../public/assets/fonts/Satoshi.otf);
+}
+
+@font-face {
+    font-family:Spring ;
+    src: url(../public/assets/fonts/FontSpring.otf);
+}
+
+*{
+    font-family: satoshi;
+
+}
+
+h1,h2,h3{
+    font-weight: 600 !important;
+}
+
+h1{
+    background-color: teal;
+    padding: 10px;
+    border-radius: 5px;
+    color: white !important;
+    
+}
+
+a{
+    text-decoration: none !important;
+}

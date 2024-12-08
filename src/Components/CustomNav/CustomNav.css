@@ -1,0 +1,70 @@
+.Main{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+}
+
+.logo{
+        font-family: Spring;
+        font-size: 1.7em !important;
+}
+
+.logo:hover{
+    color: white;
+}
+
+.List {
+    margin-left:580px;
+}
+
+.List a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 6px;
+
+}
+
+.List a:hover{
+    color: white;
+}
+
+
+.List button{
+    border: none;
+    padding:5px 20px 5px 20px;
+    margin-top: -3px;
+    border-radius: 5px;
+    background-color: black !important;
+}
+
+
+.List button:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+
+
+@media screen and (max-width:600px){
+
+    .List {
+        margin-left:00px;
+    }
+    .List a{
+        margin-left: 0px;
+    }
+
+    button.navbar-toggler.collapsed {
+        background-color: black !important;
+        
+    }
+
+    span.navbar-toggler-icon {
+        color: white !important;
+    }
+    
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family:dance ;
+  src: url(../../../public/assets/fonts/dancing/DancingScript-Bold.ttf);
+}
+
+.ThankYouContent {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 40px !important;
+}
+
+
+
+.ThanksBtn button {
+  padding: 10px 25px 10px 25px;
+  outline: none;
+  border: none;
+  font-size: 1.1em;
+  border-radius: 5px;
+}
+
+.ThanksBtn h5 {
+  color: teal;
+}
+
+.letter {
+  font-family: dance;
+  font-size: 1.4em;
+  font-weight: 900 !important;
+  margin-bottom: 10px;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .ThankYouContent {
+    width: 90%;
+    text-align: center;
+  }
+}
